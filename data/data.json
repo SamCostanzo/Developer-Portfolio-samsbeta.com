@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Object Oriented Phrase Game",
+            "description": "This is a fun game you can play in the browser where the player has to guess the letters in a randomly selected phrase. A correct guess displays the letter on the game board, and an incorrect guess removes a life. This was made with vanilla JavaScript and uses objects, classes, and methods that interact with each other. ",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://samcostanzo.github.io/PhraseHunter/",
+            "github_link": "https://github.com/SamCostanzo/PhraseHunter",
+            "image_urls": ["img/PhraseHunter.JPG", "", ""]
+        },
+        {
+            "id": "1",
+            "project_name": "Random Quote Generator",
+            "description": "This app provides a random quote with a random background color. The quotes changes every 10 seconds or when a user clicks the button. This is made with HTML, CSS, and Javascript. This relies on both event handling and the use of objects.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://samcostanzo.github.io/RandomQuoteGenerator/",
+            "github_link": "https://github.com/SamCostanzo/RandomQuoteGenerator",
+            "image_urls": ["img/QUOTE.JPG", "", ""]
+        },
+        {
+            "id": "2",
+            "project_name": "RSVP application",
+            "description": "This app lets users input a guest’s name to be dynamically added to the page. The user can then check off if the guest has confirmed they are attending an event. They can also remove or edit the name if needed. This app is build with vanilla Javascript and manipulates DOM elements onto the HTML canvas. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://samcostanzo.github.io/RSVP/",
+            "github_link": "https://github.com/SamCostanzo/RSVP",
+            "image_urls": ["img/RSVP.JPG", "", ""]
+        },
+        {
+            "id": "3",
+            "project_name": "Graphic Designer Website",
+            "description": "This site showcases a users work as a graphic designer. This is made with a responsive mobile friendly design. A visitor to the site can click to view an image and view the about and contact pages as well. This site uses simple HTML and CSS.",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://samcostanzo.github.io/GraphicDesignWebsite/",
+            "github_link": "https://github.com/SamCostanzo/GraphicDesignWebsite",
+            "image_urls": ["img/GraphicDesign.JPG", "", ""]
+        },
+        {
+            "id": "4",
+            "project_name": "Dynamic Form Validation",
+            "description": "This form project explores various methods of checking a users input as they sign up for a conference. This is done with vanilla JavaScript. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://samcostanzo.github.io/FormValidation/",
+            "github_link": "https://github.com/SamCostanzo/FormValidation",
+            "image_urls": ["img/Form.JPG", "", ""]
+        },
+        {
+            "id": "5",
+            "project_name": "List Filter and Pagination",
+            "description": "This project takes a list of mock students and displays ten of them per page with functional buttons that allow the user to quick move between the different pages.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://samcostanzo.github.io/ListFilterAndPagination/",
+            "github_link": "https://github.com/SamCostanzo/ListFilterAndPagination",
+            "image_urls": ["img/ListFilter.JPG", "", ""]
+        }
+    ]
+}
+
+
