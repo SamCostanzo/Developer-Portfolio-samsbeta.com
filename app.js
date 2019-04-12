@@ -5,14 +5,13 @@ const { projects } = require('./data.json');
 
 
 
-// Set the view engines, and the directory where static files are stored ++
+// Set the view engines, and the directory where static files are stored 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 
 // Set static folder
-app.use(express.static(path.join(__dirname, "public")));
-
+app.use('/static', express.static('public'));
 
 
 
@@ -31,8 +30,12 @@ app.get('/about', (req, res) => {
 });
 
 
-
-
+// Projects route
+app.get('/projects/:id', (req, res) => {
+    const { id } = req.params;
+    const project = projects[id];
+    res.render('project', { project });
+});
 
 
 
