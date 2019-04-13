@@ -31,13 +31,22 @@ app.get('/about', (req, res) => {
 
 
 // Projects route
+// app.get('/projects/:id', (req, res) => {
+//     const { id } = req.params;
+//     const project = projects[id];
+//     res.render('project', { project });
+// });
+
 app.get('/projects/:id', (req, res) => {
-    const { id } = req.params;
-    const project = projects[id];
-    res.render('project', { project });
+    res.render('project', {
+        title: projects[req.params.id].project_name,
+        description: projects[req.params.id].description,
+        technologies: projects[req.params.id].technologies,
+        livelink: projects[req.params.id].live_link,
+        githublink: projects[req.params.id].github_link,
+        imageURLS: projects[req.params.id].image_urls  
+    });
 });
-
-
 
 
 

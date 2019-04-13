@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://samcostanzo.github.io/PhraseHunter/",
             "github_link": "https://github.com/SamCostanzo/PhraseHunter",
-            "image_urls": ["img/PhraseHunter.JPG", "", ""]
+            "image_urls": ["img/phrase_hunter/1.JPG", "img/phrase_hunter/2.JPG", "img/phrase_hunter/3.JPG"]
         },
         {
             "id": "1",
@@ -29,12 +29,12 @@
         },
         {
             "id": "3",
-            "project_name": "Graphic Designer Website",
-            "description": "This site showcases a users work as a graphic designer. This is made with a responsive mobile friendly design. A visitor to the site can click to view an image and view the about and contact pages as well. This site uses simple HTML and CSS.",
+            "project_name": "Acme Web Design",
+            "description": "This is a simple, responsive site that works well on different screen sizes.",
             "technologies": ["HTML", "CSS"],
-            "live_link": "https://samcostanzo.github.io/GraphicDesignWebsite/",
-            "github_link": "https://github.com/SamCostanzo/GraphicDesignWebsite",
-            "image_urls": ["img/GraphicDesign.JPG", "", ""]
+            "live_link": "https://samcostanzo.github.io/Acme/",
+            "github_link": "https://github.com/SamCostanzo/Acme",
+            "image_urls": ["", "", ""]
         },
         {
             "id": "4",
