@@ -29,7 +29,7 @@ app.get('/about', (req, res) => {
 
 
 // Dynamic projects route to render each project
-app.get('/projects/:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
     res.render('project', {
         title: projects[req.params.id].project_name,
         description: projects[req.params.id].description,
