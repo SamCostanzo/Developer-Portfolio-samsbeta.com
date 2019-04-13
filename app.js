@@ -12,7 +12,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Set static folder
 app.use('/static', express.static('public'));
-
+// app.use('/static', express.static('img'));
 
 
 
@@ -22,21 +22,13 @@ app.get('/', (req, res) => {
 });
 
 
-
-
 // About route
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
 
-// Projects route
-// app.get('/projects/:id', (req, res) => {
-//     const { id } = req.params;
-//     const project = projects[id];
-//     res.render('project', { project });
-// });
-
+// Dynamic projects route to render each project
 app.get('/projects/:id', (req, res) => {
     res.render('project', {
         title: projects[req.params.id].project_name,
@@ -44,11 +36,9 @@ app.get('/projects/:id', (req, res) => {
         technologies: projects[req.params.id].technologies,
         livelink: projects[req.params.id].live_link,
         githublink: projects[req.params.id].github_link,
-        imageURLS: projects[req.params.id].image_urls  
+        imageURLS: projects[req.params.id].image_urls
     });
 });
-
-
 
 
 // Listen on environment var or port 5000
