@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://samcostanzo.github.io/PhraseHunter/",
             "github_link": "https://github.com/SamCostanzo/PhraseHunter",
-            "image_urls": ["../public/img/phrase_hunter/1.JPG", "../public/img/phrase_hunter/2.JPG", "../public/img/phrase_hunter/3.JPG"]
+            "image_urls": ["../static/img/phrase_hunter/1.JPG", "../static/img/phrase_hunter/2.JPG", "../static/img/phrase_hunter/3.JPG"]
         },
         {
             "id": "1",
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://samcostanzo.github.io/RandomQuoteGenerator/",
             "github_link": "https://github.com/SamCostanzo/RandomQuoteGenerator",
-            "image_urls": ["../public/img/random_quote/1.JPG", "../public/img/random_quote/2.JPG", "../public/img/random_quote/3.JPG"]
+            "image_urls": ["../static/img/random_quote/1.JPG", "../static/img/random_quote/2.JPG", "../static/img/random_quote/3.JPG"]
         },
         {
             "id": "2",
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://samcostanzo.github.io/RSVP/",
             "github_link": "https://github.com/SamCostanzo/RSVP",
-            "image_urls": ["../public/img/RSVP/1.JPG", "../public/img/RSVP/2.JPG", "../public/img/RSVP/3.JPG"]
+            "image_urls": ["../static/img/RSVP/1.JPG", "../static/img/RSVP/2.JPG", "../static/img/RSVP/3.JPG"]
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS"],
             "live_link": "https://samcostanzo.github.io/Acme/",
             "github_link": "https://github.com/SamCostanzo/Acme",
-            "image_urls": ["../public/img/acme/1.JPG", "../public/img/acme/2.JPG", "../public/img/acme/3.JPG"]
+            "image_urls": ["../static/img/acme/1.JPG", "../static/img/acme/2.JPG", "../static/img/acme/3.JPG"]
         },
         {
             "id": "4",
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://samcostanzo.github.io/FormValidation/",
             "github_link": "https://github.com/SamCostanzo/FormValidation",
-            "image_urls": ["../public/img/form_validation/1.JPG", "../public/img/form_validation/2.JPG", "../public/img/form_validation/3.JPG"]
+            "image_urls": ["../static/img/form_validation/1.JPG", "../static/img/form_validation/2.JPG", "../static/img/form_validation/3.JPG"]
         },
         {
             "id": "5",
@@ -52,7 +52,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://samcostanzo.github.io/ListFilterAndPagination/",
             "github_link": "https://github.com/SamCostanzo/ListFilterAndPagination",
-            "image_urls": ["../public/img/list_filter/1.JPG", "../public/img/list_filter/2.JPG", "../public/img/list_filter/3.JPG"]
+            "image_urls": ["../static/img/list_filter/1.JPG", "../static/img/list_filter/2.JPG", "../static/img/list_filter/3.JPG"]
         }
     ]
 }

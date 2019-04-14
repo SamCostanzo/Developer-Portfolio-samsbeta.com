@@ -22,6 +22,9 @@ app.get('/', (req, res) => {
 });
 
 
+
+
+
 // About route
 app.get('/about', (req, res) => {
     res.render('about');
