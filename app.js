@@ -22,12 +22,6 @@ app.get('/', (req, res) => {
 });
 
 
-// Test Route
-app.get('/test', (req, res) => {
-    res.send('Hello');
-});
-
-
 
 // About route
 app.get('/about', (req, res) => {
