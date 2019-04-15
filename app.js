@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const { projects } = require('./data.json');
+// const { projects } = require('./data.json');
 
 
 
@@ -15,31 +15,36 @@ app.use('/static', express.static('public'));
 // app.use('/static', express.static('img'));
 
 
+// Require the routes file
+const routes = require('./routes');
+app.use(routes);
 
-// Index/home route
-app.get('/', (req, res) => {
-    res.render('index', { projects });
+
+
+
+// app.use((req, res, next) => {
+//     console.log('Hello');
+//     const err = new Error('Oh no!');
+//     err.status = 500;
+//     next(err);
+// });
+
+
+// Errors
+app.use((req, res, next) => {
+    console.log('This page was not found');
+    const err = new Error('Sorry! This page was not found');
+    err.status = 404;
+    next(err);
 });
 
 
-
-// About route
-app.get('/about', (req, res) => {
-    res.render('about');
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
 });
 
-
-// Dynamic projects route to render each project
-app.get('/project/:id', (req, res) => {
-    res.render('project', {
-        title: projects[req.params.id].project_name,
-        description: projects[req.params.id].description,
-        technologies: projects[req.params.id].technologies,
-        livelink: projects[req.params.id].live_link,
-        githublink: projects[req.params.id].github_link,
-        imageURLS: projects[req.params.id].image_urls
-    });
-});
 
 
 // Listen on environment var or port 5000
