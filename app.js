@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-// const { projects } = require('./data.json');
-
 
 
 // Set the view engines, and the directory where static files are stored 
@@ -20,16 +18,6 @@ const routes = require('./routes');
 app.use(routes);
 
 
-
-
-// app.use((req, res, next) => {
-//     console.log('Hello');
-//     const err = new Error('Oh no!');
-//     err.status = 500;
-//     next(err);
-// });
-
-
 // Errors
 app.use((req, res, next) => {
     console.log('This page was not found');
@@ -39,13 +27,24 @@ app.use((req, res, next) => {
 });
 
 
-app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
-});
 
 
+// HERE
+
+// app.use((err, req, res, next) => {
+//     res.locals.error = err;
+//     res.status(err.status);
+//     res.render('error');
+// });
+
+
+// Error testing
+// routes.use((req, res, next) => {
+//     console.log('This page was not found');
+//     const err = new Error('Sorry! This page was not found');
+//     err.status = 404;
+//     next(err);
+// });
 
 // Listen on environment var or port 5000
 const PORT = process.env.PORT || 5000;
