@@ -15,9 +15,9 @@ router.get('/about', (req, res) => {
 });
 
 
-// Dynamic projects route to render each project
+// Dynamic projects route to render each project. The if checks if the ID is greater than the number of projects I have, and makes sure that it's a number. 
 router.get('/project/:id', (req, res) => {
-    if(req.params.id >= projects.length){
+    if(req.params.id >= projects.length || isNaN(req.params.id)){
         return res.redirect('/');
     } else {
         res.render('project', {
