@@ -48,7 +48,15 @@ a:hover{
 
 .image{
   display: inline-block;
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 400px;
+  height: 400px;
+  
+  /* Hi! Welcome back :) You were trying out different sizes for you project imgs. */
+
+
+
+
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
