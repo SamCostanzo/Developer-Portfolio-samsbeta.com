@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "10.16.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SamCostanzo/project-6.git"
@@ -22,3 +25,4 @@
     "pug": "^2.0.3"
   }
 }
+
