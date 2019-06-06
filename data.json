@@ -38,10 +38,10 @@
         },
         {
             "id": "4",
-            "project_name": "Acme Web Design",
+            "project_name": "Costanzo Web Design",
             "description": "This is a simple, responsive site that works well on different screen sizes.",
             "technologies": ["HTML", "CSS"],
-            "live_link": "https://samcostanzo.github.io/Acme/",
+            "live_link": "https://samcostanzo.github.io/Costanzo-web-design/",
             "github_link": "https://github.com/SamCostanzo/Acme",
             "image_urls": ["../static/img/acme/1.JPG", "../static/img/acme/2.JPG", "../static/img/acme/3.JPG"]
         },
