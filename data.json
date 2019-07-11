@@ -2,6 +2,15 @@
     "projects": [
         {
             "id": "0",
+            "project_name": "Chicago Cubs React Gallery",
+            "description": "A simple card gallery of the Chicago Cubs roster. This project renders React components for each player and their data.",
+            "technologies": ["React", "JavaScript", "CSS"],
+            "live_link": "https://powerful-oasis-22714.herokuapp.com/",
+            "github_link": "https://github.com/SamCostanzo/cubs",
+            "image_urls": ["../static/img/cubs/1.JPG", "../static/img/cubs/2.JPG", "../static/img/cubs/3.JPG"]
+        },
+        {
+            "id": "1",
             "project_name": "To Do React App",
             "description": "This productivity application is made with React and allows a user to add items to a list, delete them, and check them off as complete.",
             "technologies": ["React", "JavaScript", "CSS"],
@@ -10,7 +19,7 @@
             "image_urls": ["../static/img/To-Do-React/1.JPG", "../static/img/To-Do-React/2.JPG", "../static/img/To-Do-React/3.JPG"]
         },
         {
-            "id": "1",
+            "id": "2",
             "project_name": "Object Oriented Phrase Game",
             "description": "This is a fun game you can play in the browser where the player has to guess the letters in a randomly selected phrase. A correct guess displays the letter on the game board, and an incorrect guess removes a life. This was made with vanilla JavaScript and uses objects, classes, and methods that interact with each other. ",
             "technologies": ["HTML", "CSS", "JavaScript"], 
@@ -19,7 +28,7 @@
             "image_urls": ["../static/img/phrase_hunter/1.JPG", "../static/img/phrase_hunter/2.JPG", "../static/img/phrase_hunter/3.JPG"]
         },
         {
-            "id": "2",
+            "id": "3",
             "project_name": "Random Quote Generator",
             "description": "This app provides a random quote with a random background color. The quotes changes every 10 seconds or when a user clicks the button. This is made with HTML, CSS, and Javascript. This relies on both event handling and the use of objects.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -28,7 +37,7 @@
             "image_urls": ["../static/img/random_quote/1.JPG", "../static/img/random_quote/2.JPG", "../static/img/random_quote/3.JPG"]
         },
         {
-            "id": "3",
+            "id": "4",
             "project_name": "RSVP application",
             "description": "This app lets users input a guest’s name to be dynamically added to the page. The user can then check off if the guest has confirmed they are attending an event. They can also remove or edit the name if needed. This app is build with vanilla Javascript and manipulates DOM elements onto the HTML canvas. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -37,7 +46,7 @@
             "image_urls": ["../static/img/RSVP/1.JPG", "../static/img/RSVP/2.JPG", "../static/img/RSVP/3.JPG"]
         },
         {
-            "id": "4",
+            "id": "5",
             "project_name": "Costanzo Web Design",
             "description": "This is a simple, responsive site that works well on different screen sizes.",
             "technologies": ["HTML", "CSS"],
@@ -46,7 +55,7 @@
             "image_urls": ["../static/img/acme/1.JPG", "../static/img/acme/2.JPG", "../static/img/acme/3.JPG"]
         },
         {
-            "id": "5",
+            "id": "6",
             "project_name": "Music flashcards with Node and Express",
             "description": "This Node application generates music flashcards in a random order and lets you flip over the card to see the answer. You can also see a hint if you're stuck!",
             "technologies": ["NodeJS", "CSS", "JavaScript", "PUG", "Express"],
@@ -55,7 +64,7 @@
             "image_urls": ["../static/img/flashcards/1.JPG", "../static/img/flashcards/2.JPG", "../static/img/flashcards/3.JPG"]
         },
         {
-            "id": "6",
+            "id": "7",
             "project_name": "Dynamic Form Validation",
             "description": "This form project explores various methods of checking a users input as they sign up for a conference. This is done with vanilla JavaScript. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -64,7 +73,7 @@
             "image_urls": ["../static/img/form_validation/1.JPG", "../static/img/form_validation/2.JPG", "../static/img/form_validation/3.JPG"]
         },
         {
-            "id": "7",
+            "id": "8",
             "project_name": "List Filter and Pagination",
             "description": "This project takes a list of mock students and displays ten of them per page with functional buttons that allow the user to quick move between the different pages.",
             "technologies": ["HTML", "CSS", "JavaScript"],
